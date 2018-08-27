@@ -1,0 +1,12 @@
+{
+    "1650616043b": {
+        "path": "..\\resource\\gameui\\UIGameStart.ts",
+        "class": "UIGameStart",
+        "parentPath": ""
+    },
+    "16507a64568": {
+        "path": "..\\resource\\gameui\\UIInGameMenu.ts",
+        "class": "UIInGameMenu",
+        "parentPath": ""
+    }
+}

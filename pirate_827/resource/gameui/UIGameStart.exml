@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UIGameStartSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1650616043b" ></w:Config>
+	<e:Image width="640" height="1136" x="0" y="0" source="bg_jpg"/>
+	<e:Button label="Button" x="270" y="543"/>
+	<e:Label text="游戏开始啦！~" x="221" y="156" textAlign="center"/>
+</e:Skin>

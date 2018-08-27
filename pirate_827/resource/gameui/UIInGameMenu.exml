@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UIInGameMenuSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup/>
+	</w:Declarations>
+	<w:Config id="16507a64568" ></w:Config>
+	<e:Image width="640" height="1136" x="1.5" y="0" source="bg_png" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Button label="Button" x="180" y="971">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guo1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_keren" label="chanshengkeren" x="98" y="92"/>
+	<e:Label id="menu_0" text="Label" x="378" y="60" textColor="0xb20c0c"/>
+	<e:Label id="menu_1" text="Label" x="364" y="116" textColor="0xce0404"/>
+	<e:Label id="menu_2" text="Label" x="362" y="196" textColor="0xb20505"/>
+	<e:Label id="makeMenu_0" text="Label" x="148" y="626" textColor="0x12ff00"/>
+	<e:Label id="makeMenu_1" text="Label" x="283" y="626" textColor="0x12FF00"/>
+	<e:Label id="makeMenu_2" text="Label" x="404" y="626" textColor="0x12FF00"/>
+	<e:Button id="btn_reng" label="扔掉" x="511" y="412"/>
+	<e:Button id="btn_gei" label="给客人" x="85" y="412"/>
+	<e:Label text="肉：" x="11" y="691" textColor="0x0100ff" size="60"/>
+	<e:Button id="meat_0" label="培根" x="122" y="701"/>
+	<e:Button id="meat_1" label="虾" x="257" y="701"/>
+	<e:Button id="meat_2" label="鱼块" x="391" y="701"/>
+	<e:Label text="面" x="14" y="794" textColor="0x421919" anchorOffsetX="0" width="90" anchorOffsetY="0" height="40" size="60"/>
+	<e:Button id="noodles_0" label="意大利面" x="122" y="789"/>
+	<e:Button id="noodles_1" label="蝴蝶面" x="262" y="789"/>
+	<e:Button id="noodles_2" label="面片" x="399" y="794"/>
+	<e:Label text="蔬" x="14" y="904" size="60" textColor="0x771a1a"/>
+	<e:Button id="veges_0" label="西蓝花" x="122" y="904"/>
+	<e:Button id="veges_1" label="蘑菇" x="262" y="904"/>
+	<e:Button id="veges_2" label="香菜" x="399" y="904"/>
+	<e:Label id="score" text="分数：0" x="463" y="20.03" anchorOffsetX="0" width="120" anchorOffsetY="0" height="26.97" textColor="0x103af2"/>
+	<e:ProgressBar id="customer_bar" width="100" height="20" x="130" y="65"/>
+</e:Skin>
